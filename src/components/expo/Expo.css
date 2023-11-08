@@ -1,0 +1,152 @@
+.expo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70vh; 
+    padding: 10px 50px 30px 50px;
+    font-family: "MONTSERRAT",sans-serif;
+}
+.navExpo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap ;
+}
+.navExpo a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 100px;
+}
+.navExpo a:active{
+    scale: 1.2;
+}
+.expoBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.productBox{
+    display: flex;
+}
+.productBox .product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+    height: 40vh;
+    width: 15vw;
+    background-position: center;
+    background-size: cover;
+    /* margin-bottom: 40px; */
+    position: relative;
+}
+.productDescription{
+    padding: 15px 20px;
+    background-color: #303440;
+    color: white;
+    min-height: 25%;
+    font-size: 1rem;
+    position: absolute;
+    bottom: -70px;
+}
+.productPrice{
+    margin-top: 10px;
+    color: #ffa405;
+    font-weight: 700;
+}
+.toutClicked{
+    background-color: #ffa405;
+}
+.toutClicked :hover{
+    background-color: #ffa405;
+}
+.quote{
+    margin-top: 100px;
+    padding: 40px 200px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+@media (max-width:1150px){
+    .productBox .product{
+        width: 17vw;
+    }
+    .quote{
+        padding: 40px 140px;
+    }
+}
+@media (max-width:1000px){
+    .productBox .product{
+        width: 16vw;
+        margin: 0 15px;
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+    .quote{
+        padding: 40px 80px;
+    }
+    .navExpo a{
+        font-size: 1rem;
+    }
+}
+@media (max-width:900px){
+    .productBox .product{
+        width: 16vw;
+        margin: 0 10px;
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    .quote{
+        padding: 40px;
+        font-size: 1rem;
+    }
+}
+@media (max-width:800px){
+    .productBox .product{
+        width: 27vw;
+        margin: 0 20px;
+    }
+    .quote{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:600px){
+    .productBox .product{
+        width: 35vw;
+        margin: 0 30px;
+    }
+    .quote{
+        padding: 30px;
+        font-size: 0.8rem;
+    }
+    .navExpo a{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:450px){
+    .productBox .product{
+        width: 40vw;
+        margin: 0 30px;
+    }
+    .expo{
+        padding: 10px 20px 30px 20px;
+    }
+    .quote{
+        padding: 20px;
+        font-size: 0.7rem;
+    }
+    .navExpo a{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:350px){
+    .productBox .product{
+        width: 45vw;
+        margin: 0 20px;
+    }
+}

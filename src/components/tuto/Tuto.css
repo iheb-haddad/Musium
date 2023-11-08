@@ -1,0 +1,65 @@
+.tuto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    padding: 60px 60px 90px 60px;
+}
+.tuto .title{
+    font-size: 2.3rem;
+    font-family:"MONTSERRAT",sans-serif;
+    font-weight: bolder;
+     margin-bottom: 40px;
+     text-align: center;
+}
+.tuto .box{
+    /* margin-left: 5%; */
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    font-family:"MONTSERRAT",sans-serif; 
+}
+@media (max-width: 1000px) {
+    .tuto .title{
+        font-size: 2.2rem;
+    }
+    .tuto .box{
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .tuto .title{
+        font-size: 1.9rem;
+    }
+    .tuto {
+        padding: 40px 40px 80px 40px;
+    }
+}
+@media (max-width: 700px) {
+    .tuto .title{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 600px) {
+    .tuto .title{
+        font-size: 1.5rem;
+    }
+    .tuto {
+        padding: 20px 20px 40px 20px;
+    }
+}
+@media (max-width: 500px) {
+    .tuto .title{
+        font-size: 1.3rem;
+    }
+    .tuto .box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tuto{
+        padding : 80px 40px 80px 40px;
+    }
+}
+

@@ -1,0 +1,111 @@
+.header nav {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+}
+.header nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    font-family: "MONTSERRAT",sans-serif;
+    cursor: pointer;
+}
+ul a:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #ffa405; /* Blue text color on hover */
+}
+.header img {
+    height: 25px;
+    padding-left: 100px ;
+    cursor: pointer;
+}
+.header .clicked {
+    color: #ffa405;
+}
+.barIcon{
+  display: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin-right: 50px;
+}
+@media (max-width:1100px){
+  .header ul{
+    padding-right: 60px;
+  }
+}
+@media (max-width:930px){
+  .header nav a{
+    font-size: 0.9rem;
+  }
+  .header ul{
+    padding-right: 40px;
+  }
+  .header img {
+    height: 20px;
+    padding-left: 70px ;
+}
+}
+@media (max-width:760px){
+  .header nav a{
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+  .header img {
+    padding-left: 50px ;
+}
+}
+@media (max-width:660px){
+  .header nav a{
+    padding: 8px 10px;
+  }
+  .header img {
+    padding-left: 30px ;
+}
+}
+@media (max-width:620px){
+  .header ul {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    flex-direction: column;
+    background-color: white;
+    align-items: start;
+    padding: 0;
+    display: none;
+}
+.header nav a{
+  width: 100%;
+  padding: 15px 50px;
+}
+.header .clicked{
+  background-color: #ffa405;
+  color: white;
+}
+.barIcon{
+  display: block;
+}
+}
+@media (max-width:400px){
+  .header img {
+    height: 15px;
+    padding-left: 30px ;
+}
+.barIcon{
+  font-size: 1.5rem;
+}
+}
