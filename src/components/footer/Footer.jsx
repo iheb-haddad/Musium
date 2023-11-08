@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" style={{backgroundImage: "url(./assets/footerBg.jpg)"}}>
       <div className="blur"></div>
       <div className="linksBox">
         <div className="footerBox">

@@ -1,6 +1,5 @@
 .footer{
     display: flex;
-    background-image: url('./assets/footerBg.jpg');
     background-position: center;
     background-size: cover;
     color: white;
