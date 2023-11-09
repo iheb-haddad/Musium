@@ -6,7 +6,7 @@ import "./Home.css"
 function Home() {
   return (
     <>
-      <div className='container' style={{backgroundImage: "url(./assets/musiumbg.png)"}}>
+      <div className='container' /*style={{backgroundImage: "url(./assets/musiumbg.png)"}}*/>
           <div className="homeBox">
               <h1>CHAQUE PIÉCE A UNE HISTOIRE</h1>
               <div className="search-box">
